@@ -186,7 +186,7 @@ rss:
 
 ## comment
 
-Kepp 主题目前内置两款评论插件：Valine 和 Gitalk，你只能使用其中一款，如果两款评论插件的 enable 都设为了 true，将使用 Valine。
+Keep 主题目前内置两款评论插件：Valine 和 Gitalk，你只能使用其中一款，如果两款评论插件的 enable 都设为了 true，将使用 Valine。
 
 ### Valine
 
