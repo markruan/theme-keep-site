@@ -8,8 +8,6 @@ public/
 yarn.lock
 package-lock.json
 
-themes/keep/.git/
-
 # IDEs and editors
 /.idea
 .project
