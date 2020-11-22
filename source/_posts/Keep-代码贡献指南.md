@@ -3,7 +3,7 @@ title: Keep 代码贡献指南
 date: 2020-11-18 11:00:00
 tags: [Keep]
 categories: [Keep教程]
-sticky: 9998
+sticky: 999
 ---
 
 参与 Keep 主题开发非常简单，总体框架作者已经搭建好了，你只需在此基础上添砖加瓦，包括但不限于：美化样式、增加功能、改进代码、 修复 Bug 等。

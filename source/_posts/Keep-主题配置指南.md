@@ -3,7 +3,7 @@ title: Keep 主题配置指南
 date: 2020-11-18 10:00:00
 tags: [Keep]
 categories: [Keep教程]
-sticky: 9999
+sticky: 1000
 ---
 
 本文详细讲解 Keep 主题配置文件 `_config.yml` 如何使用，附带图文教程，目录对应着 `_config.yml` 的配置项，方便查阅。
