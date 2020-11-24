@@ -14,13 +14,10 @@
                 </h3>
 
                 <div class="home-article-content markdown-body">
-                    <div>
-                        test code: <%= post.updated %>
-                    </div>
                     <% if (post.excerpt) { %>
                         <%- post.excerpt %>
                     <% } else { %>
-                        <%- truncate(strip_html(post.content), {length: 158}) %>
+                        <%- truncate(strip_html(post.content), {length: 168}) %>
                     <% } %>
                 </div>
 
