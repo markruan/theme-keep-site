@@ -21,7 +21,7 @@
 <h2 id="style"><a href="#style" class="headerlink" title="style"></a>style</h2><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">style:</span></span><br><span class="line">  <span class="comment"># Theme primary color</span></span><br><span class="line">  <span class="attr">primary_color:</span> <span class="string">&quot;#0066CC&quot;</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Image align position, value: left | center</span></span><br><span class="line">  <span class="attr">img_position:</span> <span class="string">left</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Left side width</span></span><br><span class="line">  <span class="attr">left_side_width:</span> <span class="string">260px</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Mouse hover</span></span><br><span class="line">  <span class="attr">hover:</span></span><br><span class="line">    <span class="attr">shadow:</span> <span class="literal">true</span> <span class="comment"># shadow effect when the mouse hover</span></span><br><span class="line">    <span class="attr">scale:</span> <span class="literal">false</span> <span class="comment"># scale effect when the mouse hover</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># First screen</span></span><br><span class="line">  <span class="attr">first_screen:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">description:</span> <span class="string">Welcome</span> <span class="string">to</span> <span class="string">use</span> <span class="string">Hexo</span> <span class="string">theme</span> <span class="string">Keep</span></span><br></pre></td></tr></table></figure>
 
 <p>此处设置博客网站基本样式：</p>
-<h3 id="primary-color"><a href="#primary-color" class="headerlink" title="primary_color"></a><code>primary_color</code></h3><p>设置网站主题色，支持 rgb、rgba、十六进制格式，例如：<code>rgb(0, 102, 204)</code>、<code>rgba(0, 102, 204,0.8)</code>、<code>#0066cc</code>。建议使用 <a class="link"   href="https://www.bootcss.com/p/websafecolors/" >Web 安全色<i class="fa fa-external-link"></i></a>。</p>
+<h3 id="primary-color"><a href="#primary-color" class="headerlink" title="primary_color"></a><code>primary_color</code></h3><p>设置网站主题色，支持 rgb、rgba、十六进制格式，例如：<code>rgb(0, 102, 204)</code>、<code>rgba(0, 102, 204,0.8)</code>、<code>#0066cc</code>。建议使用 <a class="link"   href="https://www.bootcss.com/p/websafecolors/" >Web 安全色<i class="fas fa-external-link-alt"></i></a>。</p>
 <h3 id="img-position"><a href="#img-position" class="headerlink" title="img_position"></a><code>img_position</code></h3><p>设置文章内容页的图片排列位置，默认 <code>left</code>（靠左），可选：<code>left</code>、<code>center</code>（居中）。</p>
 <h3 id="left-side-width"><a href="#left-side-width" class="headerlink" title="left_side_width"></a><code>left_side_width</code></h3><ul>
 <li>设置左侧 TOC 目录结构模块的宽度，一般情况下，你无需更改。如需设置，请保持单位为 <code>px</code>。</li>
@@ -74,12 +74,12 @@
 <h3 id="Valine"><a href="#Valine" class="headerlink" title="Valine"></a>Valine</h3><p>Valine 诞生于 2017 年 8 月 7 日，是一款基于 LeanCloud 的快速、简洁且高效的无后端评论系统。</p>
 <p>详情查看：</p>
 <ul>
-<li><a class="link"   href="https://github.com/xCss/Valine/" >https://github.com/xCss/Valine/<i class="fa fa-external-link"></i></a></li>
-<li><a class="link"   href="https://valine.js.org/" >https://valine.js.org/<i class="fa fa-external-link"></i></a></li>
+<li><a class="link"   href="https://github.com/xCss/Valine/" >https://github.com/xCss/Valine/<i class="fas fa-external-link-alt"></i></a></li>
+<li><a class="link"   href="https://valine.js.org/" >https://valine.js.org/<i class="fas fa-external-link-alt"></i></a></li>
 </ul>
 <p>在 Keep 中如何使用：</p>
 <ol>
-<li><p>请先 <a class="link"   href="https://leancloud.cn/dashboard/login.html#/signin" >登录<i class="fa fa-external-link"></i></a> 或 <a class="link"   href="https://leancloud.cn/dashboard/login.html#/signup" >注册<i class="fa fa-external-link"></i></a> LeanCloud，进入控制台后点击左下角创建应用。</p>
+<li><p>请先 <a class="link"   href="https://leancloud.cn/dashboard/login.html#/signin" >登录<i class="fas fa-external-link-alt"></i></a> 或 <a class="link"   href="https://leancloud.cn/dashboard/login.html#/signup" >注册<i class="fas fa-external-link-alt"></i></a> LeanCloud，进入控制台后点击左下角创建应用。</p>
 <p><img src="https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/Keep-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97/image.1wxzxd3182v4.png" alt="image"></p>
 </li>
 <li><p>应用创建好以后，进入刚刚创建的应用，选择左下角的<code>设置</code> &gt; <code>应用Key</code>，然后就能看到你的 <code>APP ID</code> 和 <code>APP Key</code> 了。</p>
@@ -101,15 +101,15 @@
 <h3 id="Gitalk"><a href="#Gitalk" class="headerlink" title="Gitalk"></a>Gitalk</h3><p>Gitalk，一个基于 Github Issue 和 Preact 开发的评论插件。</p>
 <p>详情查看：</p>
 <ul>
-<li><a class="link"   href="https://github.com/gitalk/gitalk" >https://github.com/gitalk/gitalk<i class="fa fa-external-link"></i></a></li>
+<li><a class="link"   href="https://github.com/gitalk/gitalk" >https://github.com/gitalk/gitalk<i class="fas fa-external-link-alt"></i></a></li>
 </ul>
 <p>在 Keep 中如何使用：</p>
 <ol>
-<li><p>新建 GitHub OAuth App<br>注册或登录 GitHub，创建新的 OAuth App，链接：<a class="link"   href="https://github.com/settings/applications/new" >https://github.com/settings/applications/new<i class="fa fa-external-link"></i></a> ，其中 <code>Homepage URL</code> 和 <code>Authorization callback URL</code> 均填写自己的域名即可。</p>
+<li><p>新建 GitHub OAuth App<br>注册或登录 GitHub，创建新的 OAuth App，链接：<a class="link"   href="https://github.com/settings/applications/new" >https://github.com/settings/applications/new<i class="fas fa-external-link-alt"></i></a> ，其中 <code>Homepage URL</code> 和 <code>Authorization callback URL</code> 均填写自己的域名即可。</p>
 <p>把 <code>Client ID</code> 和 <code>Client Secret</code> 保存起来。</p>
 <p><img src="https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/Keep-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97/image.63klvgf0bz80.png" alt="image"></p>
 </li>
-<li><p>新建 GitHub 仓库<br>注册或登录 GitHub，创建一个<a class="link"   href="https://github.com/new" >新的仓库（repository）<i class="fa fa-external-link"></i></a>，并打开 Issues（自己手动增加一个 Issue），用于存储评论内容。</p>
+<li><p>新建 GitHub 仓库<br>注册或登录 GitHub，创建一个<a class="link"   href="https://github.com/new" >新的仓库（repository）<i class="fas fa-external-link-alt"></i></a>，并打开 Issues（自己手动增加一个 Issue），用于存储评论内容。</p>
 </li>
 <li><p>把自己的 <code>GitHub 用户名称</code>、<code>仓库名称</code> 、OAuth App 的 <code>Client ID</code> 、<code>Client Secret</code> 分别填写在主题配置文件里，如下示例。</p>
 <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">gitalk:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">github_id:</span> <span class="string">XPoet</span></span><br><span class="line">  <span class="attr">repository:</span> <span class="string">ils-site-comments</span></span><br><span class="line">  <span class="attr">client_id:</span> <span class="string">cdfffffffffffffffffffff</span></span><br><span class="line">  <span class="attr">client_secret:</span> <span class="string">f4b55555555555555555555555555555</span></span><br></pre></td></tr></table></figure>
@@ -226,6 +226,9 @@
 
 <p>文章内容页的版权信息模块。</p>
 <p><img src="https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/Keep-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97/image.4muim0yrzbe0.png" alt="image"></p>
+<h2 id="cdn"><a href="#cdn" class="headerlink" title="cdn"></a>cdn</h2><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">cdn:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<p>开启资源 CDN 加速。</p>
 <h2 id="footer"><a href="#footer" class="headerlink" title="footer"></a>footer</h2><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">footer:</span></span><br><span class="line">  <span class="attr">since:</span> <span class="number">2020</span></span><br></pre></td></tr></table></figure>
 
 <p>网站最底部的信息展示设置。</p>
@@ -255,17 +258,17 @@
 </li>
 <li><p><code>languages</code><br>Keep 主题的语言文件夹，在此处添加新的语言配置项，目前只有中文和英文，欢迎添加其他语言。</p>
 </li>
-<li><p><code>layout</code><br>Keep 主题的布局文件夹，用于存放主模板文件，决定网站内容的呈现方式。<br>请在此处添加新的模板，参考 <a class="link"   href="https://hexo.io/zh-cn/docs/templates" >模板<i class="fa fa-external-link"></i></a> 以获得更多信息。</p>
+<li><p><code>layout</code><br>Keep 主题的布局文件夹，用于存放主模板文件，决定网站内容的呈现方式。<br>请在此处添加新的模板，参考 <a class="link"   href="https://hexo.io/zh-cn/docs/templates" >模板<i class="fas fa-external-link-alt"></i></a> 以获得更多信息。</p>
 </li>
-<li><p><code>scripts</code><br>脚本文件夹。在启动时，Hexo 会载入此文件夹内的 JavaScript 文件，参考 <a class="link"   href="https://hexo.io/zh-cn/docs/plugins" >插件<i class="fa fa-external-link"></i></a> 以获得更多信息。</p>
+<li><p><code>scripts</code><br>脚本文件夹。在启动时，Hexo 会载入此文件夹内的 JavaScript 文件，参考 <a class="link"   href="https://hexo.io/zh-cn/docs/plugins" >插件<i class="fas fa-external-link-alt"></i></a> 以获得更多信息。</p>
 </li>
 <li><p><code>source</code><br>资源文件夹，除了模板以外的资源，例如 CSS、JavaScript、图片、字体文件等，都放在这个文件夹中。</p>
 </li>
 </ul>
 <h2 id="Keep-技术栈"><a href="#Keep-技术栈" class="headerlink" title="Keep 技术栈"></a>Keep 技术栈</h2><ul>
-<li><p>EJS<br>Keep 使用 EJS 模板引擎，你只需掌握几个 EJS 简单的语法，便可上手参考开发。<br>参考：<a class="link"   href="https://ejs.bootcss.com/" >https://ejs.bootcss.com/<i class="fa fa-external-link"></i></a></p>
+<li><p>EJS<br>Keep 使用 EJS 模板引擎，你只需掌握几个 EJS 简单的语法，便可上手参考开发。<br>参考：<a class="link"   href="https://ejs.bootcss.com/" >https://ejs.bootcss.com/<i class="fas fa-external-link-alt"></i></a></p>
 </li>
-<li><p>Stylus<br>Keep 使用 Stylus CSS 预处理器，使得 CSS 写法更灵活，你只需掌握 Stylus 基本语法，便可上手参考开发。<br>参考：<a class="link"   href="https://stylus.bootcss.com/" >https://stylus.bootcss.com/<i class="fa fa-external-link"></i></a></p>
+<li><p>Stylus<br>Keep 使用 Stylus CSS 预处理器，使得 CSS 写法更灵活，你只需掌握 Stylus 基本语法，便可上手参考开发。<br>参考：<a class="link"   href="https://stylus.bootcss.com/" >https://stylus.bootcss.com/<i class="fas fa-external-link-alt"></i></a></p>
 </li>
 </ul>
 <h2 id="Keep-Plan-Todo"><a href="#Keep-Plan-Todo" class="headerlink" title="Keep Plan Todo"></a>Keep Plan Todo</h2><ul>
@@ -298,12 +301,12 @@
 <h3 id="编写业务逻辑代码"><a href="#编写业务逻辑代码" class="headerlink" title="编写业务逻辑代码"></a>编写业务逻辑代码</h3><p>如果你想添加的功能业务逻辑比较复杂，请在 <code>source/js/utils.js</code> 这个 JS 文件里面编写，或新建一个单独 JS 文件。</p>
 <p>注意，你新建的 JS 文件别忘了引入，可在 <code>layout/_partial/scripts.ejs</code> 文件中统一管理。</p>
 <h3 id="提交代码"><a href="#提交代码" class="headerlink" title="提交代码"></a>提交代码</h3><p>当你想要添加的功能模块开发完毕之后，<strong>请检查一下有无 Bug</strong>，确认无误后，<code>commit</code> 并且 <code>push</code> 到你的 GitHub 仓库。</p>
-<h3 id="发起-Pull-Request"><a href="#发起-Pull-Request" class="headerlink" title="发起 Pull Request"></a>发起 Pull Request</h3><p>当你 GitHub 上的 Keep 仓库有代码更新，便可向作者的 Keep 仓库发起一个 <a class="link"   href="https://juejin.im/post/6844903856971710477" >Pull Request<i class="fa fa-external-link"></i></a>，然后填写描述信息，等待作者合并代码。</p>
+<h3 id="发起-Pull-Request"><a href="#发起-Pull-Request" class="headerlink" title="发起 Pull Request"></a>发起 Pull Request</h3><p>当你 GitHub 上的 Keep 仓库有代码更新，便可向作者的 Keep 仓库发起一个 <a class="link"   href="https://juejin.im/post/6844903856971710477" >Pull Request<i class="fas fa-external-link-alt"></i></a>，然后填写描述信息，等待作者合并代码。</p>
 <h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><ul>
-<li>Hexo 主题 <a class="link"   href="https://hexo.io/zh-cn/docs/themes" >https://hexo.io/zh-cn/docs/themes<i class="fa fa-external-link"></i></a></li>
-<li>Hexo 模板 <a class="link"   href="https://hexo.io/zh-cn/docs/templates" >https://hexo.io/zh-cn/docs/templates<i class="fa fa-external-link"></i></a></li>
-<li>Hexo 插件 <a class="link"   href="https://hexo.io/zh-cn/docs/plugins" >https://hexo.io/zh-cn/docs/plugins<i class="fa fa-external-link"></i></a></li>
-<li>Hexo 变量 <a class="link"   href="https://hexo.io/zh-cn/docs/variables" >https://hexo.io/zh-cn/docs/variables<i class="fa fa-external-link"></i></a></li>
+<li>Hexo 主题 <a class="link"   href="https://hexo.io/zh-cn/docs/themes" >https://hexo.io/zh-cn/docs/themes<i class="fas fa-external-link-alt"></i></a></li>
+<li>Hexo 模板 <a class="link"   href="https://hexo.io/zh-cn/docs/templates" >https://hexo.io/zh-cn/docs/templates<i class="fas fa-external-link-alt"></i></a></li>
+<li>Hexo 插件 <a class="link"   href="https://hexo.io/zh-cn/docs/plugins" >https://hexo.io/zh-cn/docs/plugins<i class="fas fa-external-link-alt"></i></a></li>
+<li>Hexo 变量 <a class="link"   href="https://hexo.io/zh-cn/docs/variables" >https://hexo.io/zh-cn/docs/variables<i class="fas fa-external-link-alt"></i></a></li>
 </ul>
 ]]></content>
       <categories>
@@ -330,7 +333,7 @@
     <content><![CDATA[<p>我们搭建个人网站的初衷，不就是为了能好好地写博客吗？一切重复且枯燥的工作都应该交给程序去自动完成，尤其是静态博客，<strong>我们只需要专注文字</strong>。</p>
 <a id="more"></a>
 
-<h2 id="什么是-CI"><a href="#什么是-CI" class="headerlink" title="什么是 CI"></a>什么是 CI</h2><p><strong>CI(Continuous Integration)</strong> 翻译为<strong>持续集成</strong>。<a class="link"   href="https://travis-ci.com/" >Travis CI<i class="fa fa-external-link"></i></a> 是一个提供持续集成功能的平台，Github 可关联 Travis CI，当 GitHub 仓库有代码 push 时，会推送通知到 Travis CI，根据设置的脚本运行指定任务。</p>
+<h2 id="什么是-CI"><a href="#什么是-CI" class="headerlink" title="什么是 CI"></a>什么是 CI</h2><p><strong>CI(Continuous Integration)</strong> 翻译为<strong>持续集成</strong>。<a class="link"   href="https://travis-ci.com/" >Travis CI<i class="fas fa-external-link-alt"></i></a> 是一个提供持续集成功能的平台，Github 可关联 Travis CI，当 GitHub 仓库有代码 push 时，会推送通知到 Travis CI，根据设置的脚本运行指定任务。</p>
 <h2 id="使用-CI-自动部署的好处"><a href="#使用-CI-自动部署的好处" class="headerlink" title="使用 CI 自动部署的好处"></a>使用 CI 自动部署的好处</h2><ul>
 <li><p>可以直接在线编辑 md 文件，立即生效。假设你已发布一篇文章，过几天你在别的电脑上浏览发现有几个明显的错别字，这是完全不能容忍的。但此时你电脑上又没有 hexo + node.js + git 等完整的开发环境，重新配置开发环境明显不现实。如果使用 CI，你可以直接用浏览器访问 GitHub 上的项目仓库，直接编辑带错别字的 md 文章，改完，在线提交，稍等片刻，你的网站就自动更新了。</p>
 </li>
@@ -341,8 +344,8 @@
 <li><p>…</p>
 </li>
 </ul>
-<h2 id="搭建流程"><a href="#搭建流程" class="headerlink" title="搭建流程"></a>搭建流程</h2><p><strong>本文以 Hexo + <a class="link"   href="https://github.com/XPoet/hexo-theme-keep" >Keep<i class="fa fa-external-link"></i></a> 搭建的静态网站为例，教你如何使用 Travis CI 自动部署到 GitHub Pages 服务器。</strong></p>
-<h3 id="新建-GitHub-仓库"><a href="#新建-GitHub-仓库" class="headerlink" title="新建 GitHub 仓库"></a>新建 GitHub 仓库</h3><p>创建一个用来存储 Hexo 项目源代码和静态页面的<a class="link"   href="https://github.com/new" >GitHub 仓库<i class="fa fa-external-link"></i></a></p>
+<h2 id="搭建流程"><a href="#搭建流程" class="headerlink" title="搭建流程"></a>搭建流程</h2><p><strong>本文以 Hexo + <a class="link"   href="https://github.com/XPoet/hexo-theme-keep" >Keep<i class="fas fa-external-link-alt"></i></a> 搭建的静态网站为例，教你如何使用 Travis CI 自动部署到 GitHub Pages 服务器。</strong></p>
+<h3 id="新建-GitHub-仓库"><a href="#新建-GitHub-仓库" class="headerlink" title="新建 GitHub 仓库"></a>新建 GitHub 仓库</h3><p>创建一个用来存储 Hexo 项目源代码和静态页面的<a class="link"   href="https://github.com/new" >GitHub 仓库<i class="fas fa-external-link-alt"></i></a></p>
 <p><img src="https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/%E4%BD%BF%E7%94%A8Travis-CI%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2Hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/create-repos.1evjlz6fnchs.png"></p>
 <p>备注：选公有仓库和私有仓库都可以，但 Travis CI 只对 GitHub 的 public 仓库免费。</p>
 <p>例如：本文案例仓库 <code>keep-demo</code>。</p>
@@ -351,7 +354,7 @@
 <li>用 <code>gh-pages 分支</code> 存储来编译生成后静态页面。</li>
 </ul>
 <p>当 <code>main 分支</code>的源代码（主题文件，文章 md 文件、图片等）有变动时，CI 会自动编译并部署到 <code>gh-pages 分支</code>。</p>
-<h3 id="新建-GitHub-Token"><a href="#新建-GitHub-Token" class="headerlink" title="新建 GitHub Token"></a>新建 GitHub Token</h3><p>创建一个有 repo 权限的 <a class="link"   href="https://github.com/settings/tokens/new" >GitHub Token<i class="fa fa-external-link"></i></a> 。</p>
+<h3 id="新建-GitHub-Token"><a href="#新建-GitHub-Token" class="headerlink" title="新建 GitHub Token"></a>新建 GitHub Token</h3><p>创建一个有 repo 权限的 <a class="link"   href="https://github.com/settings/tokens/new" >GitHub Token<i class="fas fa-external-link-alt"></i></a> 。</p>
 <p><img src="https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/%E4%BD%BF%E7%94%A8Travis-CI%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2Hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/image.8ew2trw9if4.png"></p>
 <p>新生成的 Token 只会显示一次，如有遗失，重新生成即可。</p>
 <p><img src="https://cdn.jsdelivr.net/gh/XPoet/xpoet-image-hosting/PicX/image.krns6rvn9l.png"></p>
@@ -361,7 +364,7 @@
 <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 编译环境、语言</span></span><br><span class="line"><span class="attr">dist:</span> <span class="string">xenial</span></span><br><span class="line"><span class="attr">os:</span> <span class="string">linux</span></span><br><span class="line"><span class="attr">language:</span> <span class="string">node_js</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Node.js 版本</span></span><br><span class="line"><span class="attr">node_js:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="number">12</span></span><br><span class="line"></span><br><span class="line"><span class="attr">branches:</span></span><br><span class="line">  <span class="attr">only:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">main</span>                      <span class="comment"># 只有 main 分支检出更改才触发 CI</span></span><br><span class="line"></span><br><span class="line"><span class="attr">before_install:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">export</span> <span class="string">TZ=&#x27;Asia/Shanghai&#x27;</span>   <span class="comment"># 配置时区为东八区 UTC+8</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">npm</span> <span class="string">install</span> <span class="string">hexo-cli</span>        <span class="comment"># 安装 hexo</span></span><br><span class="line"></span><br><span class="line"><span class="attr">install:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">npm</span> <span class="string">install</span>                 <span class="comment"># 安装 hexo 项目相关的依赖</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 执行脚本 </span></span><br><span class="line"><span class="attr">script:</span>                         </span><br><span class="line">  <span class="bullet">-</span> <span class="string">hexo</span> <span class="string">clean</span>                  <span class="comment"># 清除 hexo 缓存</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">hexo</span> <span class="string">generate</span>               <span class="comment"># 生成静态文件</span></span><br><span class="line"></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">on:</span></span><br><span class="line">    <span class="attr">branch:</span> <span class="string">main</span>                <span class="comment"># 工作分支</span></span><br><span class="line">  <span class="attr">strategy:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">provider:</span> <span class="string">pages</span></span><br><span class="line">  <span class="attr">skip_cleanup:</span> <span class="literal">true</span>            <span class="comment"># 跳过清理</span></span><br><span class="line">  <span class="attr">token:</span> <span class="string">$GH_TOKEN</span>              <span class="comment"># GitHub Token 变量</span></span><br><span class="line">  <span class="attr">keep_history:</span> <span class="literal">true</span>            <span class="comment"># 保持推送记录，以增量提交的方式</span></span><br><span class="line">  <span class="attr">local_dir:</span> <span class="string">public</span>             <span class="comment"># 需要推送到 gh-pages 分支的静态文件目录</span></span><br><span class="line">  <span class="attr">target_branch:</span> <span class="string">gh-pages</span>       <span class="comment"># 推送的目标文件夹 local_dir(public) -&gt; gh-pages 分支</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="Travis-CI-关联项目仓库"><a href="#Travis-CI-关联项目仓库" class="headerlink" title="Travis CI 关联项目仓库"></a>Travis CI 关联项目仓库</h3><ul>
-<li><p>使用 GitHub 账号登录 <a class="link"   href="https://travis-ci.com/" >Travis CI 官网<i class="fa fa-external-link"></i></a>，关联你的 hexo 博客项目仓库，并绑定前面生成的 GitHub Token。<br><img src="https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/%E4%BD%BF%E7%94%A8Travis-CI%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2Hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/image.29mrt40ry85c.png"></p>
+<li><p>使用 GitHub 账号登录 <a class="link"   href="https://travis-ci.com/" >Travis CI 官网<i class="fas fa-external-link-alt"></i></a>，关联你的 hexo 博客项目仓库，并绑定前面生成的 GitHub Token。<br><img src="https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/%E4%BD%BF%E7%94%A8Travis-CI%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2Hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/image.29mrt40ry85c.png"></p>
 </li>
 <li><p>点击右上角头像，选择 “Settings”。<br><img src="https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/%E4%BD%BF%E7%94%A8Travis-CI%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2Hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/image.61r86to55dk0.png"></p>
 </li>

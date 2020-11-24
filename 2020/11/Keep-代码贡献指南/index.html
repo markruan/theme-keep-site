@@ -2,20 +2,23 @@
 <html lang="zh-CN">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
     <title>
         Keep 代码贡献指南 |
         
         Keep
     </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="shortcut icon" href="/images/logo.svg">
     
 <link rel="stylesheet" href="/css/style.css">
 
+    
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+
     <script id="hexo-configurations">
     let KEEP = window.KEEP || {};
-    let CONFIG = {"hostname":"keep.xpoet.cn","root":"/","localsearch":{"enable":true,"trigger":"auto","unescape":false,"preload":false},"toc":{"enable":true,"number":true,"expand_all":true},"back2top":{"enable":true},"side_tools":{"enable":true},"style":{"primary_color":"#CC3333","img_position":"left","left_side_width":"260px","hover":{"shadow":true,"scale":false},"first_screen":{"enable":true,"description":"Welcome to use Hexo theme Keep"}},"path":"search.xml"};
+    let CONFIG = {"hostname":"keep.xpoet.cn","root":"/","localsearch":{"enable":true,"trigger":"auto","unescape":false,"preload":false},"toc":{"enable":true,"number":true,"expand_all":true},"back2top":{"enable":true},"side_tools":{"enable":true},"style":{"primary_color":"#CC3333","img_position":"left","left_side_width":"260px","hover":{"shadow":true,"scale":false},"first_screen":{"enable":true,"description":"Keep writing and Keep loving."}},"path":"search.xml"};
   </script>
 <meta name="generator" content="Hexo 5.2.0"></head>
 
@@ -154,11 +157,11 @@
                     <div class="meta-info">
                         <div class="article-meta-info">
     <span class="article-date article-meta-item">
-        <i class="fa fa-calendar-o"></i> 2020-11-18 11:00:00
+        <i class="fas fa-calendar"></i> 2020-11-18 11:00:00
     </span>
     
         <span class="article-categories article-meta-item">
-            <i class="fa fa-folder"></i>
+            <i class="fas fa-folder"></i>
             <ul>
                 
                     <li>
@@ -170,7 +173,7 @@
     
     
         <span class="article-tags article-meta-item">
-            <i class="fa fa-tags"></i>
+            <i class="fas fa-tags"></i>
             <ul>
                 
                     <li>
@@ -184,17 +187,17 @@
     
     
         <span class="article-wordcount article-meta-item">
-            <i class="fa fa-file-word-o"></i> <span>871 字</span>
+            <i class="fas fa-file-word"></i> <span>871 字</span>
         </span>
     
     
         <span class="article-min2read article-meta-item">
-            <i class="fa fa-clock-o"></i> <span>3 分钟</span>
+            <i class="fas fa-clock"></i> <span>3 分钟</span>
         </span>
     
     
         <span class="article-pv article-meta-item">
-            <i class="fa fa-eye"></i> <span id="busuanzi_value_page_pv"></span>
+            <i class="fas fa-eye"></i> <span id="busuanzi_value_page_pv"></span>
         </span>
     
 </div>
@@ -216,17 +219,17 @@
 </li>
 <li><p><code>languages</code><br>Keep 主题的语言文件夹，在此处添加新的语言配置项，目前只有中文和英文，欢迎添加其他语言。</p>
 </li>
-<li><p><code>layout</code><br>Keep 主题的布局文件夹，用于存放主模板文件，决定网站内容的呈现方式。<br>请在此处添加新的模板，参考 <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/templates" >模板<i class="fa fa-external-link"></i></a> 以获得更多信息。</p>
+<li><p><code>layout</code><br>Keep 主题的布局文件夹，用于存放主模板文件，决定网站内容的呈现方式。<br>请在此处添加新的模板，参考 <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/templates" >模板<i class="fas fa-external-link-alt"></i></a> 以获得更多信息。</p>
 </li>
-<li><p><code>scripts</code><br>脚本文件夹。在启动时，Hexo 会载入此文件夹内的 JavaScript 文件，参考 <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/plugins" >插件<i class="fa fa-external-link"></i></a> 以获得更多信息。</p>
+<li><p><code>scripts</code><br>脚本文件夹。在启动时，Hexo 会载入此文件夹内的 JavaScript 文件，参考 <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/plugins" >插件<i class="fas fa-external-link-alt"></i></a> 以获得更多信息。</p>
 </li>
 <li><p><code>source</code><br>资源文件夹，除了模板以外的资源，例如 CSS、JavaScript、图片、字体文件等，都放在这个文件夹中。</p>
 </li>
 </ul>
 <h2 id="Keep-技术栈"><a href="#Keep-技术栈" class="headerlink" title="Keep 技术栈"></a>Keep 技术栈</h2><ul>
-<li><p>EJS<br>Keep 使用 EJS 模板引擎，你只需掌握几个 EJS 简单的语法，便可上手参考开发。<br>参考：<a class="link"   target="_blank" rel="noopener" href="https://ejs.bootcss.com/" >https://ejs.bootcss.com/<i class="fa fa-external-link"></i></a></p>
+<li><p>EJS<br>Keep 使用 EJS 模板引擎，你只需掌握几个 EJS 简单的语法，便可上手参考开发。<br>参考：<a class="link"   target="_blank" rel="noopener" href="https://ejs.bootcss.com/" >https://ejs.bootcss.com/<i class="fas fa-external-link-alt"></i></a></p>
 </li>
-<li><p>Stylus<br>Keep 使用 Stylus CSS 预处理器，使得 CSS 写法更灵活，你只需掌握 Stylus 基本语法，便可上手参考开发。<br>参考：<a class="link"   target="_blank" rel="noopener" href="https://stylus.bootcss.com/" >https://stylus.bootcss.com/<i class="fa fa-external-link"></i></a></p>
+<li><p>Stylus<br>Keep 使用 Stylus CSS 预处理器，使得 CSS 写法更灵活，你只需掌握 Stylus 基本语法，便可上手参考开发。<br>参考：<a class="link"   target="_blank" rel="noopener" href="https://stylus.bootcss.com/" >https://stylus.bootcss.com/<i class="fas fa-external-link-alt"></i></a></p>
 </li>
 </ul>
 <h2 id="Keep-Plan-Todo"><a href="#Keep-Plan-Todo" class="headerlink" title="Keep Plan Todo"></a>Keep Plan Todo</h2><ul>
@@ -259,12 +262,12 @@
 <h3 id="编写业务逻辑代码"><a href="#编写业务逻辑代码" class="headerlink" title="编写业务逻辑代码"></a>编写业务逻辑代码</h3><p>如果你想添加的功能业务逻辑比较复杂，请在 <code>source/js/utils.js</code> 这个 JS 文件里面编写，或新建一个单独 JS 文件。</p>
 <p>注意，你新建的 JS 文件别忘了引入，可在 <code>layout/_partial/scripts.ejs</code> 文件中统一管理。</p>
 <h3 id="提交代码"><a href="#提交代码" class="headerlink" title="提交代码"></a>提交代码</h3><p>当你想要添加的功能模块开发完毕之后，<strong>请检查一下有无 Bug</strong>，确认无误后，<code>commit</code> 并且 <code>push</code> 到你的 GitHub 仓库。</p>
-<h3 id="发起-Pull-Request"><a href="#发起-Pull-Request" class="headerlink" title="发起 Pull Request"></a>发起 Pull Request</h3><p>当你 GitHub 上的 Keep 仓库有代码更新，便可向作者的 Keep 仓库发起一个 <a class="link"   target="_blank" rel="noopener" href="https://juejin.im/post/6844903856971710477" >Pull Request<i class="fa fa-external-link"></i></a>，然后填写描述信息，等待作者合并代码。</p>
+<h3 id="发起-Pull-Request"><a href="#发起-Pull-Request" class="headerlink" title="发起 Pull Request"></a>发起 Pull Request</h3><p>当你 GitHub 上的 Keep 仓库有代码更新，便可向作者的 Keep 仓库发起一个 <a class="link"   target="_blank" rel="noopener" href="https://juejin.im/post/6844903856971710477" >Pull Request<i class="fas fa-external-link-alt"></i></a>，然后填写描述信息，等待作者合并代码。</p>
 <h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><ul>
-<li>Hexo 主题 <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/themes" >https://hexo.io/zh-cn/docs/themes<i class="fa fa-external-link"></i></a></li>
-<li>Hexo 模板 <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/templates" >https://hexo.io/zh-cn/docs/templates<i class="fa fa-external-link"></i></a></li>
-<li>Hexo 插件 <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/plugins" >https://hexo.io/zh-cn/docs/plugins<i class="fa fa-external-link"></i></a></li>
-<li>Hexo 变量 <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/variables" >https://hexo.io/zh-cn/docs/variables<i class="fa fa-external-link"></i></a></li>
+<li>Hexo 主题 <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/themes" >https://hexo.io/zh-cn/docs/themes<i class="fas fa-external-link-alt"></i></a></li>
+<li>Hexo 模板 <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/templates" >https://hexo.io/zh-cn/docs/templates<i class="fas fa-external-link-alt"></i></a></li>
+<li>Hexo 插件 <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/plugins" >https://hexo.io/zh-cn/docs/plugins<i class="fas fa-external-link-alt"></i></a></li>
+<li>Hexo 变量 <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/variables" >https://hexo.io/zh-cn/docs/variables<i class="fas fa-external-link-alt"></i></a></li>
 </ul>
 
         </div>
@@ -296,7 +299,9 @@
                            rel="prev"
                            href="/2020/11/Keep-%E5%B9%B3%E6%BB%91%E5%8D%87%E7%BA%A7%E6%8C%87%E5%8D%97/"
                         >
-                            <i class="arrow-icon left flex-center fa fa-chevron-left"></i>
+                            <span class="left arrow-icon flex-center" >
+                              <i class="fas fa-chevron-left"></i>
+                            </span>
                             <span class="title flex-center">
                                 <span class="post-nav-title-item">Keep 平滑升级指南</span>
                                 <span class="post-nav-item">上一篇</span>
@@ -314,7 +319,9 @@
                                 <span class="post-nav-title-item">Keep 主题配置指南</span>
                                 <span class="post-nav-item">下一篇</span>
                             </span>
-                            <i class="arrow-icon right flex-center fa fa-chevron-right"></i>
+                            <span class="right arrow-icon flex-center" >
+                              <i class="fas fa-chevron-right"></i>
+                            </span>
                         </a>
                     </div>
                 
@@ -339,7 +346,7 @@
             
               <span>2020</span> ~
             
-            2020 <i class="fa fa-heart"></i> <a href="/">Keep team</a>
+            2020 <i class="fas fa-heart"></i> <a href="/">Keep team</a>
         </div>
         
             <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
@@ -371,7 +378,7 @@
     <ul class="tools-list">
         
             <li class="search popup-trigger">
-                <i class="fa fa-search"></i>
+                <i class="fas fa-search"></i>
             </li>
         
 
@@ -380,7 +387,7 @@
         <!-- TOC aside toggle -->
         
             <li class="tools-item page-aside-toggle">
-                <i class="fa fa-outdent"></i>
+                <i class="fas fa-outdent"></i>
             </li>
         
 
@@ -395,23 +402,23 @@
             <div class="tools2-container">
 
     <button class="tools-button">
-        <i class="fa fa-plus"></i>
+        <i class="fas fa-plus"></i>
     </button>
 
     <ul class="tools-wrapper">
         <!-- back2top -->
         
             <li class="tools-item scroll-to-bottom">
-                <i class="fa fa-arrow-down"></i>
+                <i class="fas fa-arrow-down"></i>
             </li>
             <li class="tools-item scroll-to-top">
-                <i class="fa fa-arrow-up"></i>
+                <i class="fas fa-arrow-up"></i>
             </li>
         
 
         <!-- mode toggle -->
         <li class="tools-item mode-toggle">
-            <i class="fa fa-moon-o"></i>
+            <i class="fas fa-moon"></i>
         </li>
 
         <!-- rss -->
@@ -451,7 +458,7 @@
     <div class="popup search-popup">
         <div class="search-header">
           <span class="search-icon">
-            <i class="fa fa-search"></i>
+            <i class="fas fa-search"></i>
           </span>
             <div class="search-input-container">
                 <input autocomplete="off"
@@ -464,12 +471,12 @@
                 >
             </div>
             <span class="popup-btn-close">
-                <i class="fa fa-times"></i>
+                <i class="fas fa-times"></i>
             </span>
         </div>
         <div id="search-result">
             <div id="no-result">
-                <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
             </div>
         </div>
     </div>
@@ -477,8 +484,11 @@
 
 
 
+
 <script src="/js/utils.js"></script>
+
 <script src="/js/header-shrink.js"></script>
+
 <script src="/js/main.js"></script>
 
 
@@ -515,6 +525,7 @@
     
         
 <script src="/js/libs/anime.min.js"></script>
+
 <script src="/js/toc.js"></script>
 
     
