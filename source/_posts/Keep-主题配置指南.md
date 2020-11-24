@@ -440,6 +440,16 @@ copyright_info:
 
 ![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/Keep-主题配置指南/image.4muim0yrzbe0.png)
 
+## cdn
+
+```yml
+cdn:
+  enable: true
+```
+
+开启资源 CDN 加速。
+
+
 ## footer
 
 ```yml

@@ -38,7 +38,7 @@ social_contact:
   enable: false
   links:
     github:          # your GitHub URL
-    wechat:          # your WeChat QR-Code URL
+    weixin:          # your WeChat QR-Code URL
     weibo:           # your WeiBo URL
     twitter:         # your twitter URL
     facebook:        # your facebook URL
@@ -192,3 +192,16 @@ copyright_info:
 # ---------------------------------------------------------------------------------------
 footer:
   since: 2020
+
+
+# ---------------------------------------------------------------------------------------
+# CDN
+# ---------------------------------------------------------------------------------------
+cdn:
+  enable: true
+
+
+# ---------------------------------------------------------------------------------------
+# Keep version (Please don't modify)
+# ---------------------------------------------------------------------------------------
+version: 3.0.0
