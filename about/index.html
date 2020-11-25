@@ -19,7 +19,7 @@
     <script id="hexo-configurations">
     let KEEP = window.KEEP || {};
     KEEP.hexo_config = {"hostname":"keep.xpoet.cn","root":"/","path":"search.xml"};
-    KEEP.theme_config = {"toc":{"enable":true,"number":true,"expand_all":true},"local_search":{"enable":true,"trigger":"auto","unescape":false,"preload":false},"side_tools":{"enable":true},"version":"3.0.0"};
+    KEEP.theme_config = {"toc":{"enable":true,"number":true,"expand_all":true},"style":{"primary_color":"#CC3333","img_position":"left","left_side_width":"260px","content_max_width":"920px","hover":{"shadow":true,"scale":false},"first_screen":{"enable":true,"description":"Keep writing and Keep loving."}},"local_search":{"enable":true,"trigger":"auto","unescape":false,"preload":false},"version":"3.0.0"};
     KEEP.language = {"search":"搜索...","prev":"上一页","next":"下一页","prev_posts":"上一篇","next_posts":"下一篇","page":"第 %d 页","recent_posts":"最新文章","share":"分享","powered_by":"由 %s 驱动","theme":"主题","rss_feed":"RSS Feed","category":"分类","categories":"分类","tag":"标签","tags":"标签","tagcloud":"标签云","comment":"评论","home":"首页","archive":"归档","archives":"归档","about":"关于","site_uv":"访问人数","site_pv":"总访问量","links":"友链","link":"友链","top":"顶置","read_more":"阅读全文","wordcount":"字","min2read":"分钟","changelog":"更新日志","copyright":{"title":"本文标题","author":"本文作者","link":"本文链接","create_time":"创建时间","license_title":"版权声明","license_content":"本博客所有文章除特别声明外，均采用 %s 许可协议。转载请注明出处！"},"ago":{"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 月前","year":"%s 年前"}};
   </script>
 <meta name="generator" content="Hexo 5.2.0"></head>
@@ -41,8 +41,7 @@
             <div class="page-main-content-top">
                 <header class="header-wrapper">
 
-    <div class="header-content"
-    >
+    <div class="header-content">
         <a class="logo-title" href="/">
             Keep
         </a>
@@ -257,40 +256,44 @@
 
     </div>
 
-    <!-- side tools -->
-    
-        <div class="bottom-sidebar-tools">
-            <div class="tools2-container">
+    <div class="right-bottom-side-tools">
+        <div class="side-tools-container">
 
-    <button class="tools-button">
-        <i class="fas fa-plus"></i>
-    </button>
+    <ul class="side-tools-list">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
 
-    <ul class="tools-wrapper">
-        <!-- back2top -->
-        
-            <li class="tools-item scroll-to-bottom">
-                <i class="fas fa-arrow-down"></i>
-            </li>
-            <li class="tools-item scroll-to-top">
-                <i class="fas fa-arrow-up"></i>
-            </li>
-        
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
 
-        <!-- mode toggle -->
-        <li class="tools-item mode-toggle">
+        <li class="tools-item tool-expand-width flex-center">
+            <i class="fas fa-arrows-alt-h"></i>
+        </li>
+
+        <li class="tools-item tool-dark-light-toggle flex-center">
             <i class="fas fa-moon"></i>
         </li>
 
-        <!-- rss -->
-        
+        <li class="tools-item tool-scroll-to-top flex-center">
+            <i class="fas fa-arrow-up"></i>
+        </li>
 
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="tools-ul-1">
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog"></i>
+        </li>
 
     </ul>
 </div>
 
-        </div>
-    
+    </div>
 
     <!-- page aside -->
     <aside class="page-aside">
@@ -342,21 +345,13 @@
 
 <script src="/js/utils.js"></script>
 
-<script src="/js/header-shrink.js"></script>
-
 <script src="/js/main.js"></script>
 
+<script src="/js/header-shrink.js"></script>
 
-
-    
-<script src="/js/dark-light-toggle.js"></script>
-
-
-    
-        
 <script src="/js/back2top.js"></script>
 
-    
+<script src="/js/dark-light-toggle.js"></script>
 
 
 

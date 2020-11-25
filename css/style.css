@@ -232,9 +232,9 @@ button {
   align-items: center;
 }
 .page-container {
-  transition: all 0.3s ease;
   position: relative;
   padding-top: 3px;
+  transition: all 0.3s ease;
 }
 @media (max-width: 780px) {
   .page-container {
@@ -288,6 +288,7 @@ button {
   }
 }
 .page-container .page-main .page-main-content .page-main-content-middle {
+  box-sizing: border-box;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -304,19 +305,21 @@ button {
   }
 }
 .page-container .page-main .page-main-content .page-main-content-middle .main-content {
-  width: 62%;
-  height: 100%;
   position: relative;
   box-sizing: border-box;
+  width: 80%;
+  max-width: 920px;
+  height: 100%;
+  transition: all 0.3s ease;
 }
 @media (max-width: 780px) {
   .page-container .page-main .page-main-content .page-main-content-middle .main-content {
-    width: 80% !important;
+    width: 85%;
   }
 }
 @media (max-width: 500px) {
   .page-container .page-main .page-main-content .page-main-content-middle .main-content {
-    width: 88% !important;
+    width: 90%;
   }
 }
 .page-container .page-main .page-main-content .page-main-content-bottom {
@@ -400,30 +403,10 @@ button {
     transform-origin: right top;
   }
 }
-.page-container .bottom-sidebar-tools {
+.page-container .right-bottom-side-tools {
   position: fixed;
   bottom: 30px;
-  right: 30px;
-  width: 40px;
-  height: 40px;
-}
-@media (max-width: 780px) {
-  .page-container .bottom-sidebar-tools {
-    right: 10px;
-    transform: scale(0.82);
-    transform-origin: right bottom;
-  }
-}
-@media (max-width: 500px) {
-  .page-container .bottom-sidebar-tools {
-    right: 5px;
-    transform: scale(0.72);
-    transform-origin: right bottom;
-  }
-}
-.page-container .sidebar-tools-shrink {
-  transition: all 0.3s ease;
-  top: 86px;
+  right: 0;
 }
 .search-pop-overlay {
   display: none;
@@ -1124,7 +1107,8 @@ input.search-input::-webkit-search-cancel-button {
 .header-wrapper .header-content {
   position: relative;
   height: 100%;
-  width: 62%;
+  width: 80%;
+  max-width: 920px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1134,16 +1118,13 @@ input.search-input::-webkit-search-cancel-button {
 }
 @media (max-width: 780px) {
   .header-wrapper .header-content {
-    width: 80% !important;
+    width: 85% !important;
   }
 }
 @media (max-width: 500px) {
   .header-wrapper .header-content {
-    width: 88% !important;
+    width: 90% !important;
   }
-}
-.header-wrapper .header-content.first-screen {
-  width: 80%;
 }
 .header-wrapper .header-content .logo-title {
   font-size: 2.2em;
@@ -1356,77 +1337,55 @@ input.search-input::-webkit-search-cancel-button {
     display: none !important;
   }
 }
-.tools2-container .tools-button {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  font-size: 1.2em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--background-color);
+.side-tools-container {
+  position: relative;
+  transition: all 0.3s ease;
+}
+.side-tools-container .tools-item {
+  width: 30px;
+  height: 30px;
+  font-size: 1.1em;
+  margin-bottom: 3px;
   color: var(--second-text-color);
-  z-index: 9999;
-  transition: all 0.3s ease;
-  box-shadow: 2px 2px 6px var(--shadow-color);
-}
-.tools2-container .tools-button:hover {
-  box-shadow: 3px 3px 10px var(--shadow-hover-color);
-}
-.tools2-container .tools-button:hover {
-  transition: all 0.3s ease;
-  color: var(--background-color);
-  background: var(--primary-color);
-}
-.tools2-container .tools-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.tools2-container .tools-wrapper .tools-item {
-  position: absolute;
-  top: 0;
-  left: 8px/2;
-  cursor: pointer;
-  width: 32px;
-  height: 32px;
-  border-radius: 5px;
-  font-size: 1.2em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background: var(--background-color);
-  opacity: 0;
+  cursor: pointer;
+  box-shadow: 1px 1px 3px var(--shadow-color);
+  border-right: none;
+}
+.side-tools-container .tools-item:hover {
   transition: all 0.3s ease;
+  color: var(--background-color);
+  background: var(--primary-color);
   box-shadow: 2px 2px 6px var(--shadow-color);
 }
-.tools2-container .tools-wrapper .tools-item.hide {
+@media (max-width: 780px) {
+  .side-tools-container .tools-item {
+    width: 27px;
+    height: 27px;
+    font-size: 1.05em;
+    margin-bottom: 2px;
+  }
+}
+@media (max-width: 500px) {
+  .side-tools-container .tools-item {
+    width: 24px;
+    height: 24px;
+    font-size: 1em;
+  }
+}
+.side-tools-container .side-tools-list {
   opacity: 0;
-  transform: translate3d(0, 0, 0);
-}
-.tools2-container .tools-wrapper .tools-item:hover {
-  box-shadow: 3px 3px 10px var(--shadow-hover-color);
-}
-.tools2-container .tools-wrapper .tools-item:hover {
+  transform: translateX(100%);
   transition: all 0.3s ease;
-  color: var(--background-color);
-  background: var(--primary-color);
 }
-.tools2-container .tools-wrapper .tools-item.rss a {
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
+@media (max-width: 780px) {
+  .side-tools-container .side-tools-list .tool-expand-width {
+    display: none;
+  }
 }
-.tools2-container .tools-wrapper .tools-item.rss a:hover {
-  transition: all 0.3s ease;
-  color: var(--background-color);
-  background: var(--primary-color);
+.side-tools-container .side-tools-list.show {
+  opacity: 1;
+  transform: translateX(0);
 }
 .archive-list-container .archive-item {
   margin-bottom: 30px;
@@ -1584,14 +1543,14 @@ input.search-input::-webkit-search-cancel-button {
 }
 .first-screen-container .content .description {
   font-weight: bold;
-  font-size: 30px;
-  line-height: 60px;
+  font-size: 2em;
+  line-height: 2em;
   text-align: center;
 }
 .first-screen-container .content .social-icon-list {
   position: absolute;
   bottom: 30px;
-  font-size: 26px;
+  font-size: 1.6em;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -1599,6 +1558,7 @@ input.search-input::-webkit-search-cancel-button {
   float: left;
   margin-right: 25px;
   cursor: pointer;
+  line-height: 2em;
 }
 .first-screen-container .content .social-icon-list .social-icon-item:last-child {
   margin-right: 0;
@@ -2043,7 +2003,7 @@ input.search-input::-webkit-search-cancel-button {
 .article-content-container .article-header .info .author .level {
   margin-left: 10px;
   color: #fff;
-  font-size: 12px;
+  font-size: 0.7em;
   font-weight: 500;
   background: var(--selection-color);
   padding: 0 4px;

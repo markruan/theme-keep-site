@@ -1,8 +1,8 @@
 /* global CONFIG */
 window.addEventListener('DOMContentLoaded', () => {
 
+  // Search DB path
   let searchPath = KEEP.hexo_config.path;
-
   if (!searchPath) {
     // Search DB path
     console.warn('`hexo-generator-searchdb` plugin is not installed!');
@@ -13,7 +13,6 @@ window.addEventListener('DOMContentLoaded', () => {
   let isfetched = false;
   let datas;
   let isXml = true;
-
   if (searchPath.length === 0) {
     searchPath = 'search.xml';
   } else if (searchPath.endsWith('json')) {
@@ -229,7 +228,6 @@ window.addEventListener('DOMContentLoaded', () => {
   };
 
   const fetchData = () => {
-
     fetch(KEEP.hexo_config.root + searchPath)
       .then(response => response.text())
       .then(res => {

@@ -47,7 +47,7 @@ keep-mobile()
 .article-content-container .article-header .info .author .level {
   margin-left: 10px;
   color: #fff;
-  font-size: 12px;
+  font-size: 0.7em;
   font-weight: 500;
   background: var(--selection-color);
   padding: 0 4px;

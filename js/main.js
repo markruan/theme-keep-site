@@ -13,8 +13,13 @@ window.addEventListener('DOMContentLoaded', () => {
   // init scroll
   KEEP.utils.registerWindowScroll();
 
-  // init tools button
-  KEEP.utils.registerToolsButtonClick();
+  // toggle show tools list
+  KEEP.utils.toggleShowToolsList();
+
+  // global font adjust
+  KEEP.utils.globalFontAdjust();
+
+  KEEP.utils.contentAreaWidthAdjust();
 
   // comment
   KEEP.utils.goComment();
