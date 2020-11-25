@@ -19,6 +19,9 @@ style:
   # Left side width
   left_side_width: 260px
 
+  # Content area max width
+  content_max_width: 920px
+
   # Mouse hover
   hover:
     shadow: true   # shadow effect when the mouse hover
@@ -34,14 +37,14 @@ style:
 # Social contact link
 # ---------------------------------------------------------------------------------------
 social_contact:
-  enable: false
+  enable: true
   links:
-    github:        # your GitHub URL
-    weixin:        # your WeChat QR-Code URL
-    weibo:         # your WeiBo URL
-    twitter:       # your twitter URL
-    facebook:      # your facebook URL
-    email:         # your email
+    github: xx       # your GitHub URL
+    weixin: xx       # your WeChat QR-Code URL
+    weibo: xx        # your WeiBo URL
+    twitter: xx      # your twitter URL
+    facebook: xx     # your facebook URL
+    email: xx        # your email
 
 
 # ---------------------------------------------------------------------------------------
@@ -151,20 +154,6 @@ home_article:
 code_copy:
   enable: true
   style: mac        # values: default | mac
-
-
-# ---------------------------------------------------------------------------------------
-# Sidebar tools
-# ---------------------------------------------------------------------------------------
-side_tools:
-  enable: true
-
-
-# ---------------------------------------------------------------------------------------
-# Back to top
-# ---------------------------------------------------------------------------------------
-back2top:
-  enable: true
 
 
 # ---------------------------------------------------------------------------------------
