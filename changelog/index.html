@@ -9,17 +9,15 @@
         
         Keep
     </title>
-    <link rel="shortcut icon" href="/images/logo.svg">
+    <link rel="icon" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.0.1/source/images/logo.svg">
     
 <link rel="stylesheet" href="/css/style.css">
 
-    
-<link rel="stylesheet" href="/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.0.1/source/css/font-awesome.min.css">
     <script id="hexo-configurations">
     let KEEP = window.KEEP || {};
     KEEP.hexo_config = {"hostname":"keep.xpoet.cn","root":"/","path":"search.xml"};
-    KEEP.theme_config = {"toc":{"enable":true,"number":true,"expand_all":true},"style":{"primary_color":"#CC3333","img_position":"left","left_side_width":"260px","content_max_width":"920px","hover":{"shadow":true,"scale":false},"first_screen":{"enable":true,"description":"Keep writing and Keep loving."}},"local_search":{"enable":true,"trigger":"auto","unescape":false,"preload":false},"version":"3.0.0"};
+    KEEP.theme_config = {"toc":{"enable":true,"number":true,"expand_all":true},"style":{"primary_color":"#CC3333","img_position":"left","left_side_width":"260px","content_max_width":"920px","hover":{"shadow":true,"scale":false},"first_screen":{"enable":true,"description":"Keep writing and Keep loving."}},"local_search":{"enable":true,"trigger":"auto","unescape":false,"preload":false},"version":"3.0.1"};
     KEEP.language = {"search":"搜索...","prev":"上一页","next":"下一页","prev_posts":"上一篇","next_posts":"下一篇","page":"第 %d 页","recent_posts":"最新文章","share":"分享","powered_by":"由 %s 驱动","theme":"主题","rss_feed":"RSS Feed","category":"分类","categories":"分类","tag":"标签","tags":"标签","tagcloud":"标签云","comment":"评论","home":"首页","archive":"归档","archives":"归档","about":"关于","site_uv":"访问人数","site_pv":"总访问量","links":"友链","link":"友链","top":"顶置","read_more":"阅读全文","wordcount":"字","min2read":"分钟","changelog":"更新日志","copyright":{"title":"本文标题","author":"本文作者","link":"本文链接","create_time":"创建时间","license_title":"版权声明","license_content":"本博客所有文章除特别声明外，均采用 %s 许可协议。转载请注明出处！"},"ago":{"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 月前","year":"%s 年前"}};
   </script>
 <meta name="generator" content="Hexo 5.2.0"></head>
@@ -127,12 +125,86 @@
                     
                         <div class="fade-in-down-animation">
     <div class="empty-page-container">
+
+        
+
         <div class="empty-page-content markdown-body">
             
-                <h1>changelog</h1>
+                <blockquote>
+<p>重要通知：<br>自 <code>v3.0.0</code> 起，原主题 <del>ILS</del> 改名为 <strong>Keep</strong>， <code>v3.0.0</code> 做了大量的改进和优化，同时也新增许多功能，不管怎样变化，Keep 始终围绕「 简约、轻快、专注内容 」来维护和升级，愿你坚持写作，保持热爱。</p>
+</blockquote>
+<h1 id="v3-0-0-2020-11-30"><a href="#v3-0-0-2020-11-30" class="headerlink" title="v3.0.0 [2020-11-30]"></a>v3.0.0 [2020-11-30]</h1><ol>
+<li><p>增加首屏展示功能。</p>
+</li>
+<li><p>增加第三方社交链接功能。</p>
+</li>
+<li><p>增加字号设置功能。</p>
+</li>
+<li><p>重构右下角侧边工具栏。</p>
+</li>
+<li><p>增加自由切换内容区域宽度功能。</p>
+</li>
+<li><p>升级 fontawesome 图标库。</p>
+</li>
+<li><p>增加设置 CDN 加速功能。</p>
+</li>
+<li><p>增加底部起始年份设置功能。</p>
+</li>
+<li><p>优化 Markdown 样式。</p>
+</li>
+<li><p>移除原 ILS 的 magic 配置项 和 normal 风格。</p>
+</li>
+<li><p>美化友链页面并采用 _data 来存储。</p>
+</li>
+<li><p>首页文章块显示该文章创建于多久之前。</p>
+</li>
+</ol>
+<h1 id="v2-1-3-2020-10-30"><a href="#v2-1-3-2020-10-30" class="headerlink" title="v2.1.3 [2020-10-30]"></a>v2.1.3 [2020-10-30]</h1><ol>
+<li><p><strong>文章顶置的属性改为 <code>sticky</code>，无需安装第三方插件。</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: ILS 主题配置文件图文教程</span><br><span class="line">date: 2020-10-30 10:26:05</span><br><span class="line">sticky: 9999</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>新创建的页面添加评论功能的属性改为 <code>comment</code>。</strong><br><code>_config.yml</code> 主题配置文件的评论属性也需要修改 <code>comments</code> -&gt; <code>comment</code>，<strong>强烈建议</strong>使用最新版的 <code>_config.yml</code>。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: changelog</span><br><span class="line">date: 2020-10-29 21:44:16</span><br><span class="line">comment: true</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>文章内容页增加博主头像图片和<code>Lv</code>标识，<code>Lv</code>等级根据文章数量判断。</p>
+</li>
+<li><p>优化 Gitalk 评论插件，适配夜间模式。</p>
+</li>
+</ol>
+
             
         </div>
         <div class="empty-page-comments">
+            
+                <div class="comments-container">
+    <div id="comment-anchor"></div>
+    
+        
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <div id="gitalk-container"></div>
+    <script>
+        let __gitalk__pathname = decodeURI(location.pathname);
+        const __gitalk__pathnameLength = __gitalk__pathname.length;
+        const __gitalk__pathnameMaxLength = 50;
+        if (__gitalk__pathnameLength > __gitalk__pathnameMaxLength) {
+            __gitalk__pathname = __gitalk__pathname.substring(0, __gitalk__pathnameMaxLength - 3) + '...';
+        }
+        const gitalk = new Gitalk({
+            clientID: '5550967be8a5e25fc735',
+            clientSecret: 'e87b865e53fb5843b570f8f016e4684f524a02aa',
+            repo: 'keep-site-comments',
+            owner: 'XPoet',
+            admin: ['XPoet'],
+            id: __gitalk__pathname,
+            language: 'zh-CN'
+        })
+        gitalk.render('gitalk-container')
+    </script>
+
+
+    
+</div>
+
             
         </div>
     </div>
@@ -229,7 +301,7 @@
 
     <ul class="tools-ul-1">
         <li class="tools-item tool-toggle-show flex-center">
-            <i class="fas fa-cog"></i>
+            <i class="fas fa-cog fa-spin"></i>
         </li>
 
     </ul>
@@ -284,22 +356,10 @@
 
 
 
-
-<script src="/js/utils.js"></script>
-
-<script src="/js/main.js"></script>
-
-<script src="/js/header-shrink.js"></script>
-
-<script src="/js/back2top.js"></script>
-
-<script src="/js/dark-light-toggle.js"></script>
+<script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.0.1/source/js/utils.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.0.1/source/js/main.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.0.1/source/js/header-shrink.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.0.1/source/js/back2top.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.0.1/source/js/dark-light-toggle.js"></script>
 
 
-
-    
-<script src="/js/local-search.js"></script>
-
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.0.1/source/js/local-search.js"></script>
 
 
 
