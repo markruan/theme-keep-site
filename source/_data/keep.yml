@@ -37,14 +37,14 @@ style:
 # Social contact link
 # ---------------------------------------------------------------------------------------
 social_contact:
-  enable: false
+  enable: true
   links:
-    github:        # your GitHub URL
-    weixin:        # your WeChat QR-Code URL
+    github: https://github.com/XPoet
+    weixin: https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/common-use/image.4j02ra19reg0.png
     weibo:         # your WeiBo URL
     twitter:       # your twitter URL
     facebook:      # your facebook URL
-    email:         # your email
+    email: i@xpoet.cn
 
 
 # ---------------------------------------------------------------------------------------
