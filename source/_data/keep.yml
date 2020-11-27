@@ -37,14 +37,14 @@ style:
 # Social contact link
 # ---------------------------------------------------------------------------------------
 social_contact:
-  enable: true
+  enable: false
   links:
-    github: https://github.com/XPoet
-    weixin: https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/common-use/image.4j02ra19reg0.png
-    weibo:         # your WeiBo URL
-    twitter:       # your twitter URL
-    facebook:      # your facebook URL
-    email: i@xpoet.cn
+    github:
+    weixin:
+    weibo:
+    twitter:
+    facebook:
+    email:
 
 
 # ---------------------------------------------------------------------------------------
@@ -170,7 +170,7 @@ toc:
 
 
 # ---------------------------------------------------------------------------------------
-# # Post copyright info
+# Post copyright info
 # ---------------------------------------------------------------------------------------
 copyright_info:
   enable: true
@@ -193,4 +193,4 @@ cdn:
 # ---------------------------------------------------------------------------------------
 # Keep version (Please don't modify)
 # ---------------------------------------------------------------------------------------
-version: 3.0.1
+version: 3.0.2
