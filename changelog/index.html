@@ -9,15 +9,15 @@
         
         Keep
     </title>
-    <link rel="icon" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.0.2/source/images/logo.svg">
+    <link rel="shortcut icon" href="/images/logo.svg">
     
 <link rel="stylesheet" href="/css/style.css">
 
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.0.2/source/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.0.3/source/css/font-awesome.min.css">
     <script id="hexo-configurations">
     let KEEP = window.KEEP || {};
     KEEP.hexo_config = {"hostname":"keep.xpoet.cn","root":"/","path":"search.xml"};
-    KEEP.theme_config = {"toc":{"enable":true,"number":true,"expand_all":true},"style":{"primary_color":"#CC3333","img_position":"left","left_side_width":"260px","content_max_width":"920px","hover":{"shadow":true,"scale":false},"first_screen":{"enable":true,"description":"Keep writing and Keep loving."}},"local_search":{"enable":true,"trigger":"auto","unescape":false,"preload":false},"version":"3.0.2"};
+    KEEP.theme_config = {"toc":{"enable":true,"number":true,"expand_all":true},"style":{"primary_color":"#CC3333","avatar":"images/avatar.png","favicon":"images/logo.svg","img_position":"left","left_side_width":"260px","content_max_width":"920px","hover":{"shadow":true,"scale":false},"first_screen":{"enable":true,"description":"Keep writing and Keep loving."}},"local_search":{"enable":true,"trigger":"auto","unescape":false,"preload":false},"version":"3.0.3"};
     KEEP.language = {"search":"搜索...","prev":"上一页","next":"下一页","prev_posts":"上一篇","next_posts":"下一篇","page":"第 %d 页","recent_posts":"最新文章","share":"分享","powered_by":"由 %s 驱动","theme":"主题","rss_feed":"RSS Feed","category":"分类","categories":"分类","tag":"标签","tags":"标签","tagcloud":"标签云","comment":"评论","home":"首页","archive":"归档","archives":"归档","about":"关于","site_uv":"访问人数","site_pv":"总访问量","links":"友链","link":"友链","top":"顶置","read_more":"阅读全文","wordcount":"字","min2read":"分钟","changelog":"更新日志","copyright":{"title":"本文标题","author":"本文作者","link":"本文链接","create_time":"创建时间","license_title":"版权声明","license_content":"本博客所有文章除特别声明外，均采用 %s 许可协议。转载请注明出处！"},"ago":{"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 月前","year":"%s 年前"}};
   </script>
 <meta name="generator" content="Hexo 5.2.0"></head>
@@ -56,6 +56,14 @@
             
                 <li class="menu-item">
                     <a class=""
+                       href="/archives"
+                    >
+                        归档
+                    </a>
+                </li>
+            
+                <li class="menu-item">
+                    <a class=""
                        href="/categories"
                     >
                         分类
@@ -88,22 +96,27 @@
     <div class="header-drawer">
         <ul class="drawer-menu-list">
             
-                <li class="drawer-menu-item">
+                <li class="drawer-menu-item flex-center">
                     <a class=""
                        href="/">首页</a>
                 </li>
             
-                <li class="drawer-menu-item">
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/archives">归档</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
                     <a class=""
                        href="/categories">分类</a>
                 </li>
             
-                <li class="drawer-menu-item">
+                <li class="drawer-menu-item flex-center">
                     <a class=""
                        href="/tags">标签</a>
                 </li>
             
-                <li class="drawer-menu-item">
+                <li class="drawer-menu-item flex-center">
                     <a class="active"
                        href="/changelog">更新日志</a>
                 </li>
@@ -133,6 +146,15 @@
                 <blockquote>
 <p>重要通知：<br>自 <code>v3.0.0</code> 起，原 Hexo 主题 ILS 改名为 <strong>Keep</strong>， <code>v3.0.0</code> 在原 ILS 基础上做了大量改进、优化和代码重构，同时也新增许多功能，强烈建议使用最新版本 Keep 主题及最新版本的主题配置文件 <code>_config.yml</code>。</p>
 </blockquote>
+<h1 id="v3-0-3-2020-12-01"><a href="#v3-0-3-2020-12-01" class="headerlink" title="v3.0.3 [2020-12-01]"></a>v3.0.3 [2020-12-01]</h1><ol>
+<li><p>修复用户无法使用自己图片作为 <strong>头像(avatar)</strong> 和 <strong>网站图标(favicon)</strong> 的 Bug。</p>
+</li>
+<li><p>主题配置文件增加 <code>favicon</code> 和 <code>avatar</code> 配置选项，可使用本地图片或 CDN 外链。</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">style:</span></span><br><span class="line">  <span class="comment"># Theme primary color</span></span><br><span class="line">  <span class="attr">primary_color:</span> <span class="string">&#x27;#CC3333&#x27;</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Avatar (You can use local image or image external link)</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">images/avatar.png</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Favicon (You can use local image or image external link)</span></span><br><span class="line">  <span class="attr">favicon:</span> <span class="string">images/logo.svg</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>重构 CSS 字体单位，<code>em</code> -&gt; <code>rem</code>，更合理，更协调，更优雅。</p>
+</li>
+</ol>
 <h1 id="v3-0-0-2020-11-26"><a href="#v3-0-0-2020-11-26" class="headerlink" title="v3.0.0 [2020-11-26]"></a>v3.0.0 [2020-11-26]</h1><ol>
 <li><p>增加首屏展示功能。</p>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">style:</span></span><br><span class="line"><span class="comment"># First screen</span></span><br><span class="line"><span class="attr">first_screen:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">description:</span> <span class="string">Keep</span> <span class="string">writing</span> <span class="string">and</span> <span class="string">Keep</span> <span class="string">loving.</span></span><br></pre></td></tr></table></figure>
@@ -362,10 +384,10 @@
 
 
 
-<script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.0.2/source/js/utils.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.0.2/source/js/main.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.0.2/source/js/header-shrink.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.0.2/source/js/back2top.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.0.2/source/js/dark-light-toggle.js"></script>
+<script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.0.3/source/js/utils.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.0.3/source/js/main.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.0.3/source/js/header-shrink.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.0.3/source/js/back2top.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.0.3/source/js/dark-light-toggle.js"></script>
 
 
-    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.0.2/source/js/local-search.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.0.3/source/js/local-search.js"></script>
 
 
 
