@@ -11,24 +11,24 @@ comment: true
 
 1. 增加首屏展示功能。
 
-```yml
-style:
-  # First screen
-  first_screen:
-    enable: true
-    description: Keep writing and Keep loving.
-```
+   ```yml
+   style:
+   # First screen
+   first_screen:
+     enable: true
+     description: Keep writing and Keep loving.
+   ```
 
 1. 增加第三方社交链接功能。
 
-```yml
-social_contact:
-  enable: false
-  links:
-    github: https://github.com/XPoet
-    weixin: xxx
-    ......
-```
+   ```yml
+   social_contact:
+   enable: false
+   links:
+       github: https://github.com/XPoet
+       weixin: xxx
+       ......
+   ```
 
 1. 增加在线字号调整功能。
 
