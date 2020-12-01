@@ -5,15 +5,32 @@ comment: true
 ---
 
 > 重要通知：
-自 `v3.0.0` 起，原主题 ~ILS~ 改名为 **Keep**， `v3.0.0` 做了大量的改进和优化，同时也新增许多功能，不管怎样变化，Keep 始终围绕「 简约、轻快、专注内容 」来维护和升级，愿你坚持写作，保持热爱。
+> 自 `v3.0.0` 起，原 Hexo 主题 ILS 改名为 **Keep**， `v3.0.0` 在原 ILS 基础上做了大量改进、优化和代码重构，同时也新增许多功能，强烈建议使用最新版本 Keep 主题及最新版本的主题配置文件 `_config.yml`。
 
 # v3.0.0 [2020-11-26]
 
 1. 增加首屏展示功能。
 
+```yml
+style:
+  # First screen
+  first_screen:
+    enable: true
+    description: Keep writing and Keep loving.
+```
+
 1. 增加第三方社交链接功能。
 
-1. 增加字号设置功能。
+```yml
+social_contact:
+  enable: false
+  links:
+    github: https://github.com/XPoet
+    weixin: xxx
+    ......
+```
+
+1. 增加在线字号调整功能。
 
 1. 重构右下角侧边工具栏。
 
@@ -29,15 +46,13 @@ comment: true
 
 1. 移除原 ILS 的 magic 配置项 和 normal 风格。
 
-1. 美化友链页面并采用 _data 来存储。
+1. 美化友链页面并采用 \_data 来存储。
 
 1. 首页文章块显示该文章创建于多久之前。
 
 1. 文章内容页增加版权信息模块。
 
-
-
-
+1. ......
 
 # v2.1.3 [2020-10-30]
 
