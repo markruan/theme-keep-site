@@ -7,6 +7,27 @@ comment: true
 > 重要通知：
 > 自 `v3.0.0` 起，原 Hexo 主题 ILS 改名为 **Keep**， `v3.0.0` 在原 ILS 基础上做了大量改进、优化和代码重构，同时也新增许多功能，强烈建议使用最新版本 Keep 主题及最新版本的主题配置文件 `_config.yml`。
 
+
+# v3.0.3 [2020-12-01]
+
+1. 修复用户无法使用自己图片作为 **头像(avatar)** 和 **网站图标(favicon)** 的 Bug。
+
+1. 主题配置文件增加 `favicon` 和 `avatar` 配置选项，可使用本地图片或 CDN 外链。
+   ```yml
+   style:
+     # Theme primary color
+     primary_color: '#CC3333'
+   
+     # Avatar (You can use local image or image external link)
+     avatar: images/avatar.png
+   
+     # Favicon (You can use local image or image external link)
+     favicon: images/logo.svg
+   ```
+
+1. 重构 CSS 字体单位，`em` -> `rem`，更合理，更协调，更优雅。
+
+
 # v3.0.0 [2020-11-26]
 
 1. 增加首屏展示功能。
@@ -53,6 +74,7 @@ comment: true
 1. 文章内容页增加版权信息模块。
 
 1. ......
+
 
 # v2.1.3 [2020-10-30]
 
