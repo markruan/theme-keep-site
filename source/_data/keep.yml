@@ -14,10 +14,10 @@ style:
   primary_color: '#CC3333'
 
   # Avatar (You can use local image or image external link)
-  avatar: images/avatar.png
+  avatar: /images/avatar.png
 
   # Favicon (You can use local image or image external link)
-  favicon: images/logo.svg
+  favicon: /images/logo.svg
 
   # Image align position, value: left | center
   img_position: left
@@ -36,6 +36,7 @@ style:
   # First screen
   first_screen:
     enable: true
+    background_img: /images/bg.svg
     description: Keep writing and Keep loving.
 
 
@@ -73,7 +74,7 @@ menu:
 # See: https://github.com/hexojs/hexo-generator-feed
 # ---------------------------------------------------------------------------------------
 rss:
-  enable: false
+  enable: true
 
 
 # ---------------------------------------------------------------------------------------
@@ -199,4 +200,4 @@ cdn:
 # ---------------------------------------------------------------------------------------
 # Keep version (Please don't modify)
 # ---------------------------------------------------------------------------------------
-version: 3.0.3
+version: 3.0.4
