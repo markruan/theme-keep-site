@@ -1,7 +1,7 @@
 ---
 title: Keep 代码贡献指南
 date: 2020-11-18 11:00:00
-tags: [Keep]
+tags: [Keep, 贡献指南]
 categories: [Keep教程]
 sticky: 998
 ---
