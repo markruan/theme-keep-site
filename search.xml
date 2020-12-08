@@ -135,8 +135,8 @@
         <category>Keep</category>
       </categories>
       <tags>
-        <tag>Hexo</tag>
         <tag>Keep</tag>
+        <tag>使用指南</tag>
       </tags>
   </entry>
   <entry>
@@ -381,6 +381,7 @@
       </categories>
       <tags>
         <tag>Keep</tag>
+        <tag>配置指南</tag>
       </tags>
   </entry>
   <entry>
@@ -453,6 +454,7 @@
       </categories>
       <tags>
         <tag>Keep</tag>
+        <tag>贡献指南</tag>
       </tags>
   </entry>
   <entry>
@@ -467,6 +469,7 @@
       </categories>
       <tags>
         <tag>Keep</tag>
+        <tag>升级指南</tag>
       </tags>
   </entry>
   <entry>
@@ -533,9 +536,9 @@
         <category>Hexo教程</category>
       </categories>
       <tags>
-        <tag>Hexo</tag>
         <tag>Keep</tag>
         <tag>Travis CI</tag>
+        <tag>Hexo</tag>
       </tags>
   </entry>
 </search>
