@@ -57,32 +57,33 @@ style:
 
 此处设置博客网站基本样式：
 
-### `primary_color`
+### primary_color
 
 设置网站主题色，支持 rgb、rgba、十六进制格式，例如：`rgb(0, 102, 204)`、`rgba(0, 102, 204,0.8)`、`#0066cc`。建议使用 [Web 安全色](https://www.bootcss.com/p/websafecolors/)。
 
-### `img_position`
+### img_position
 
 设置文章内容页的图片排列位置，默认 `left`（靠左），可选：`left`、`center`（居中）。
 
-### `left_side_width`
+### left_side_width
 
 - 设置左侧 TOC 目录结构模块的宽度，一般情况下，你无需更改。如需设置，请保持单位为 `px`。
 - 示例：
   ![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/Keep-主题配置指南/image.37aynu43rzk0.png)
 
-### `hover`
+### hover
 
 设置鼠标悬浮时的样式，可开启 `shadow` 和 `scale` 效果。
 
 - `shadow` 阴影效果
 - `scale` 缩放效果
 
-### `first_screen`
+### first_screen
 
 Keep v3.0.0 新增的网站首屏模块，开启后将显示在网站首页。
 
 - `enable` 是否开启首屏
+- `background_img` 首屏背景图片
 - `description` 首屏描述
 - 首屏开启状态示例：
   ![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/Keep-主题配置指南/image.1a6hcqxfelkw.png)
