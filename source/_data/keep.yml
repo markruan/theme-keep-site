@@ -52,6 +52,8 @@ social_contact:
     twitter:
     facebook:
     email:
+    zhihu:
+    qq:
 
 
 # ---------------------------------------------------------------------------------------
@@ -59,7 +61,7 @@ social_contact:
 # ---------------------------------------------------------------------------------------
 menu:
   Home: /
-  Archives: /archives
+  # Archives: /archives
   Categories: /categories
   Tags: /tags
   Changelog: /changelog
