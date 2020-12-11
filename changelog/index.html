@@ -57,14 +57,6 @@
             
                 <li class="menu-item">
                     <a class=""
-                       href="/archives"
-                    >
-                        归档
-                    </a>
-                </li>
-            
-                <li class="menu-item">
-                    <a class=""
                        href="/categories"
                     >
                         分类
@@ -100,11 +92,6 @@
                 <li class="drawer-menu-item flex-center">
                     <a class=""
                        href="/">首页</a>
-                </li>
-            
-                <li class="drawer-menu-item flex-center">
-                    <a class=""
-                       href="/archives">归档</a>
                 </li>
             
                 <li class="drawer-menu-item flex-center">
@@ -145,61 +132,16 @@
         <div class="empty-page-content markdown-body">
             
                 <blockquote>
-<p>重要通知：<br>自 <code>v3.0.0</code> 起，原 Hexo 主题 ILS 改名为 <strong>Keep</strong>， <code>v3.0.0</code> 在原 ILS 基础上做了大量改进、优化和代码重构，同时也新增许多功能，强烈建议使用最新版本 Keep 主题及最新版本的主题配置文件 <code>_config.yml</code>。</p>
+<p><code>v3.0.0</code> 起，原 Hexo 主题 ILS 正式改名 <strong>Keep</strong>。<code>v3.0.0</code> 在原 ILS 基础上做了大量改进、优化和代码重构，强烈建议使用最新版本 Keep 及最新版本的主题配置文件 <code>_config.yml</code>。</p>
 </blockquote>
-<h1 id="v3-0-3-2020-12-01"><a href="#v3-0-3-2020-12-01" class="headerlink" title="v3.0.3 [2020-12-01]"></a>v3.0.3 [2020-12-01]</h1><ol>
-<li><p>修复用户无法使用自己图片作为 <strong>头像(avatar)</strong> 和 <strong>网站图标(favicon)</strong> 的 Bug。</p>
+<ul>
+<li><p><a href="/2020/12/Keep-v3-0-4-Released/">v3.0.4 更新日志</a></p>
 </li>
-<li><p>主题配置文件增加 <code>favicon</code> 和 <code>avatar</code> 配置选项，可使用本地图片或 CDN 外链。</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">style:</span></span><br><span class="line">  <span class="comment"># Theme primary color</span></span><br><span class="line">  <span class="attr">primary_color:</span> <span class="string">&#x27;#CC3333&#x27;</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Avatar (You can use local image or image external link)</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">images/avatar.png</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Favicon (You can use local image or image external link)</span></span><br><span class="line">  <span class="attr">favicon:</span> <span class="string">images/logo.svg</span></span><br></pre></td></tr></table></figure>
+<li><p><a href="/2020/12/Keep-v3-0-3-Released/">v3.0.3 更新日志</a></p>
 </li>
-<li><p>重构 CSS 字体单位，<code>em</code> -&gt; <code>rem</code>，更合理，更协调，更优雅。</p>
+<li><p><a href="/2020/11/Keep-v3-0-0-Released/">v3.0.0 更新日志</a></p>
 </li>
-</ol>
-<h1 id="v3-0-0-2020-11-26"><a href="#v3-0-0-2020-11-26" class="headerlink" title="v3.0.0 [2020-11-26]"></a>v3.0.0 [2020-11-26]</h1><ol>
-<li><p>增加首屏展示功能。</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">style:</span></span><br><span class="line"><span class="comment"># First screen</span></span><br><span class="line"><span class="attr">first_screen:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">description:</span> <span class="string">Keep</span> <span class="string">writing</span> <span class="string">and</span> <span class="string">Keep</span> <span class="string">loving.</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>增加第三方社交链接功能。</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">social_contact:</span></span><br><span class="line"><span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">links:</span></span><br><span class="line">    <span class="attr">github:</span> <span class="string">https://github.com/XPoet</span></span><br><span class="line">    <span class="attr">weixin:</span> <span class="string">xxx</span></span><br><span class="line">    <span class="string">......</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>增加在线字号调整功能。</p>
-</li>
-<li><p>重构右下角侧边工具栏。</p>
-</li>
-<li><p>增加自由切换内容区域宽度功能。</p>
-</li>
-<li><p>升级 fontawesome 图标库。</p>
-</li>
-<li><p>增加设置 CDN 加速功能。</p>
-</li>
-<li><p>增加底部起始年份设置功能。</p>
-</li>
-<li><p>优化 Markdown 样式。</p>
-</li>
-<li><p>移除原 ILS 的 magic 配置项 和 normal 风格。</p>
-</li>
-<li><p>美化友链页面并采用 _data 来存储。</p>
-</li>
-<li><p>首页文章块显示该文章创建于多久之前。</p>
-</li>
-<li><p>文章内容页增加版权信息模块。</p>
-</li>
-<li><p>……</p>
-</li>
-</ol>
-<h1 id="v2-1-3-2020-10-30"><a href="#v2-1-3-2020-10-30" class="headerlink" title="v2.1.3 [2020-10-30]"></a>v2.1.3 [2020-10-30]</h1><ol>
-<li><p><strong>文章顶置的属性改为 <code>sticky</code>，无需安装第三方插件。</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: ILS 主题配置文件图文教程</span><br><span class="line">date: 2020-10-30 10:26:05</span><br><span class="line">sticky: 9999</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-</li>
-<li><p><strong>新创建的页面添加评论功能的属性改为 <code>comment</code>。</strong><br><code>_config.yml</code> 主题配置文件的评论属性也需要修改 <code>comments</code> -&gt; <code>comment</code>，<strong>强烈建议</strong>使用最新版的 <code>_config.yml</code>。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: changelog</span><br><span class="line">date: 2020-10-29 21:44:16</span><br><span class="line">comment: true</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>文章内容页增加博主头像图片和<code>Lv</code>标识，<code>Lv</code>等级根据文章数量判断。</p>
-</li>
-<li><p>优化 Gitalk 评论插件，适配夜间模式。</p>
-</li>
-</ol>
+</ul>
 
             
         </div>
